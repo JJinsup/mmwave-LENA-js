@@ -219,10 +219,10 @@ static ns3::GlobalValue g_e2lteEnabled("e2lteEnabled", "If true, send LTE E2 rep
 static ns3::GlobalValue g_e2nrEnabled("e2nrEnabled", "If true, send NR E2 reports",
                                        ns3::BooleanValue(true), ns3::MakeBooleanChecker());
 
-static ns3::GlobalValue g_e2du("e2du", "If true, send DU reports", ns3::BooleanValue(false),
+static ns3::GlobalValue g_e2du("e2du", "If true, send DU reports", ns3::BooleanValue(true),
                                 ns3::MakeBooleanChecker());
 
-static ns3::GlobalValue g_e2cuUp("e2cuUp", "If true, send CU-UP reports", ns3::BooleanValue(false),
+static ns3::GlobalValue g_e2cuUp("e2cuUp", "If true, send CU-UP reports", ns3::BooleanValue(true),
                                   ns3::MakeBooleanChecker());
 
 static ns3::GlobalValue g_e2cuCp("e2cuCp", "If true, send CU-CP reports", ns3::BooleanValue(true),
@@ -264,7 +264,7 @@ static ns3::GlobalValue g_e2TermIp("e2TermIp", "The IP address of the RIC E2 ter
 
 static ns3::GlobalValue g_enableE2FileLogging("enableE2FileLogging",
                               "If true, generate offline file logging instead of connecting to RIC",
-                              ns3::BooleanValue(false), ns3::MakeBooleanChecker());
+                              ns3::BooleanValue(true), ns3::MakeBooleanChecker());
 
 static ns3::GlobalValue g_e2_func_id("KPM_E2functionID", "Function ID to subscribe",
                                       ns3::DoubleValue(2),
