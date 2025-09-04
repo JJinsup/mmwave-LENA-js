@@ -73,6 +73,8 @@ X2Stats.txt
 LteDlRsrpSinrStats.txt
 RlcAmBufferSize.txt
 LteUlSinrStats.txt
+gnbs.txt
+ue_position.txt
 =======
 
 version.cache
